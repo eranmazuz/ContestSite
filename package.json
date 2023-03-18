@@ -1,0 +1,26 @@
+{
+  "name": "contestsite",
+  "version": "1.0.0",
+  "description": "Learning nodjs react and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eranmazuz/ContestSite.git"
+  },
+  "keywords": [
+    "react",
+    "nodjs",
+    "mongodb"
+  ],
+  "author": "eran mazuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eranmazuz/ContestSite/issues"
+  },
+  "homepage": "https://github.com/eranmazuz/ContestSite#readme",
+  "dependencies": {
+  }
+}
