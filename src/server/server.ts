@@ -1,4 +1,6 @@
 import express from "express";
+import os from "node:os";
+import config from "./config";
 
 const server = express();
 
@@ -10,8 +12,9 @@ server.use("/", (req,res) => {
     content: "EJS is <em>cool!</em>"
   });
 })
-server.listen("8080", "0.0.0.0", () => {
+server.listen(config.PORT, config.HOST, () => {
   console.info(
-      "Express server is listening at http://0.0.0.0:8080"
+      `Express server is listening at ${config.SERVER_URL}`,
+      `Free mem: ${ os.freemem() / 1024 / 1024 }`
   );
 });
